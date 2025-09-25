@@ -1,0 +1,84 @@
+# API Keys and Configuration
+api_keys*.json
+*.key
+*.secret
+/keys
+/legacy
+
+# Results and Outputs
+results/
+results/**
+outputs/
+logs/
+*.log
+tables/
+
+# Dataset Cache (large files)
+datasets/*.json
+datasets/*.jsonl
+datasets/**/*.json
+datasets/**/*.jsonl
+data/*.csv
+data/*.pgn
+data/
+
+# plots
+plots/
+code/plots/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model Cache
+.cache/
+models/
+model_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
